@@ -175,6 +175,8 @@ right = [my, find_right(1), find_right(2), find_right(3), find_right(4), find_ri
 
 beta = solve(left, right)
 
+# right і left це матриці, які потрбні для того аби знайти beta - масив з коефіцієнтів рівняння регресії
+
 print("\n{:>25}{:>5} \n{:>19}{:>5}{:>5} \n{:>5}{:>7}{:>5}{:>5}{:>160} \n{:>19}{:>5}{:>5}"
       .format("min","max","x1:",x1_min,x1_max,"Варіант: 110","x2:",x2_min,x2_max,
               "f=8.6 + 6.5 * x1 + 9.5 * x2 + 4.2 * x3 + 8 * x1 * x1 + 0.5 * x2 * x2 + 2.3 * x3 * x3 +"
